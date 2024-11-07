@@ -30,7 +30,7 @@ if (registerForm) {
         }
 
         alert('Пользователь зарегистрирован!');
-        window.location.href = 'index.html'; // Перенаправление на страницу логина
+        window.location.href = 'login.html'; // Перенаправление на страницу логина
     });
 }
 
