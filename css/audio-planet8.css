@@ -13,12 +13,12 @@ body::before {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-image: url('/images/mercury_planet_asteroids_3medium.jpg');
+    background-image: url('./images/mercury_planet_asteroids_3medium.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     animation: pulseBackground 10s infinite ease-in-out;
-    z-index: -1; /* Фон позади всего содержимого */
+    z-index: -1; 
 }
 
 /* Ключевые кадры для пульсации */
