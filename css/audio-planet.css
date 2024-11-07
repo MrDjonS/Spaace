@@ -175,3 +175,16 @@ body {
     border-radius: 10px; /* Закругленные углы рамки */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Тень для рамки */
 }
+@media (max-width: 600px) {
+    .cards,
+    .cardsa {
+        grid-template-columns: 1fr;
+        max-width: 100%; /* Ограничим ширину для корректного уменьшения */
+    }
+
+    .card img, .cardsa img {
+        width: 100%; /* Сделаем изображения адаптивными */
+        height: auto;
+    }
+}
+
