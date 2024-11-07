@@ -13,7 +13,7 @@ body::before {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-image: url('./images/mercury_planet_asteroids_3medium.jpg');
+    background-image: url('../images/mercury_planet_asteroids_3medium.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
